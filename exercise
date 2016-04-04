@@ -1,0 +1,36 @@
+function myF(fish,meat,banana,apple)
+{
+		if (fish < 5)
+		{
+			if (meat < 5)
+			{
+                if (banana < 1.5)
+		        {
+			         if (apple < 1.5)
+			         {
+				         if (fish > meat) {
+					        return meat
+					      }
+				         else if (banana > apple){
+					        return apple
+					      }
+				         else {
+					        return true
+				          }
+			        }
+	 		         else {
+	    		        return false
+	 		       }
+	 	        }
+	 	         else {
+	 		        return false
+	 		     }   
+            }
+	 	     else {
+	              return false
+	 	    }
+        } 
+	 	 else {
+	 	    return false
+        }
+}
